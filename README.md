@@ -1,2 +1,2 @@
-# Co-Paint
+# CoPaint
 A simple collaborative online painting web app.
