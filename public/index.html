@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="jscolor.js"></script>
+    <title>CoPaint</title>
+</head>
+<body>
+    <h1>CoPaint</h1>
+    <div id="selectRoom">
+        <label for="roomNumber">Type room name</label>
+        <input id="roomNumber" type="text" />
+        <button id="goRoom">Go</button>
+    </div>
+    <div>
+        Color: <input id='pickerInput' value='#000000' data-jscolor=""/>
+        <button id='clearButton'>Clear</button>
+    </div>
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
